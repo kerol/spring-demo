@@ -1,4 +1,4 @@
-package me.kerol.hello;
+package me.kerol;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
