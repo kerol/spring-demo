@@ -1,8 +1,8 @@
 .DS_Store
 .gradle
 /build/
+spring-boot-samples/
 !gradle/wrapper/gradle-wrapper.jar
-~/
 
 ### IntelliJ IDEA ###
 .idea
