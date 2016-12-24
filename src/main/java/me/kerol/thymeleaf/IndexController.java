@@ -15,7 +15,8 @@ public class IndexController {
     private Redis redis;
 
     @RequestMapping("/")
-    public String index(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
+    public String index(@RequestParam(value="name", required=false, defaultValue="World")
+                                    String name, Model model) {
         String redisKey = "hello";
         redis.set(redisKey, name);
         String redisValue = redis.get(redisKey);
