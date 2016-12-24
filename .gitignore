@@ -1,6 +1,7 @@
 .DS_Store
 .gradle
 /build/
+classes/
 spring-boot-samples/
 !gradle/wrapper/gradle-wrapper.jar
 
