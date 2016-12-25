@@ -7,6 +7,7 @@ import java.security.MessageDigest;
  */
 public class MD5Util {
 
+    // 加密成32位小写字符串
     public static String encrypt(String dataStr) {
         try {
             MessageDigest m = MessageDigest.getInstance("MD5");

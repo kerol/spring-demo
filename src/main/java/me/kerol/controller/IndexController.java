@@ -13,8 +13,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/")
 public class IndexController extends BaseController {
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
-    public String login() {
-        return "login";
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String index(Model model) {
+        String name = "Hahhhhh";
+        model.addAttribute(name);
+        return "index";
     }
 }

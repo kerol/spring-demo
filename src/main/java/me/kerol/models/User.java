@@ -18,6 +18,8 @@ public class User implements Serializable {
     private String name;
     @Column(nullable = false)
     private String email;
+    @Column(nullable = false)
+    private String passWord;
 
     public User() {
         super();
@@ -29,12 +31,13 @@ public class User implements Serializable {
     }
 
     public long getId() {
-        return this.id;
+        return id;
     }
     public String getName() {
-        return this.name;
+        return name;
     }
     public String getEmail() {
-        return this.email;
+        return email;
     }
+    public String getPassWord() { return  passWord; }
 }
