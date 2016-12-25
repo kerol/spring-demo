@@ -1,6 +1,6 @@
 package me.kerol.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import me.kerol.models.User;
 import org.springframework.data.repository.CrudRepository;
 
 import javax.transaction.Transactional;

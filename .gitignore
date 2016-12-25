@@ -2,6 +2,7 @@
 .gradle
 /build/
 classes/
+favorites-web/
 spring-boot-samples/
 !gradle/wrapper/gradle-wrapper.jar
 

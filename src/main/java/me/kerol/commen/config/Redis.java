@@ -1,4 +1,4 @@
-package me.kerol.config;
+package me.kerol.commen.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

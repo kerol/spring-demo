@@ -1,4 +1,4 @@
-package me.kerol.repository;
+package me.kerol.models;
 
 import javax.persistence.*;
 import java.io.Serializable;
